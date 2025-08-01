@@ -1,4 +1,4 @@
-  <h3 align="center">Iphone 16 Website</h3>
+  <h3 align="center">ThreeJS & GSAP Iphone 16 Website</h3>
 
 ## 📋 <a name="table">Table of Contents</a>
 
