@@ -106,7 +106,7 @@ canvas {
 }
 
 @utility hiw-text-container {
-  @apply flex md:flex-row flex-col justify-between items-start gap-24;
+  @apply flex md:flex-row flex-col justify-between md:items-start gap-24 text-center md:text-start items-center;
 }
 
 @utility hiw-text {

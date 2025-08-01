@@ -35,7 +35,7 @@ const Hero = () => {
     });
   }, []);
   return (
-    <section className="w-full nav-height bg-black relative mt-12">
+    <section className="w-full nav-height bg-black relative md:mt-12 mt-24">
       <div className="h-5/6 w-full flex-center flex-col flex">
         <p className="hero-title">IPhone 16 Pro</p>
         <div className="md:w-10/12 w-9/12">
@@ -50,7 +50,10 @@ const Hero = () => {
           </video>
         </div>
 
-        <div id="cta" className="flex flex-col items-center opacity-0">
+        <div
+          id="cta"
+          className="flex flex-col items-center opacity-0 text-center"
+        >
           <a href="#highlights" className="btn">
             Buy
           </a>

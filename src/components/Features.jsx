@@ -43,7 +43,7 @@ const Features = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center overflow-hidden">
-          <div className="mt-32 mb-24 pl-24">
+          <div className="mt-32 mb-24 text-center">
             <h2 className="text-5xl lg:text-7xl font-semibold">iPhone.</h2>
             <h2 className="text-5xl lg:text-7xl font-semibold">
               Forged in titanium.
@@ -83,7 +83,7 @@ const Features = () => {
                 </div>
               </div>
 
-              <div className="feature-text-container">
+              <div className="feature-text-container text-center md:text-start">
                 <div className="flex-1 flex-center">
                   <p className="feature-text g_text">
                     iPhone 16 Pro is{" "}
@@ -102,7 +102,7 @@ const Features = () => {
                     any metal, making these our{" "}
                     <span className="text-white">
                       lightest Pro models ever.
-                    </span>
+                    </span>{" "}
                     You'll notice the difference the moment you pick one up.
                   </p>
                 </div>
