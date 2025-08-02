@@ -12,6 +12,7 @@ const Chip = () => {
       scrollTrigger: {
         trigger: "#chip",
         start: "20% bottom",
+        toggleActions: "play none none none",
       },
       opacity: 0,
       scale: 2,
