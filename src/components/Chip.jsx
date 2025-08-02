@@ -12,7 +12,7 @@ const Chip = () => {
       scrollTrigger: {
         trigger: "#chip",
         start: "20% bottom",
-        toggleActions: "play none none none",
+        toggleActions: "play reverse play reserve",
       },
       opacity: 0,
       scale: 2,
