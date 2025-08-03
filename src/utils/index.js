@@ -28,3 +28,4 @@ export const highlightThirdVideo = "/assets/videos/hightlight-sec.mp4";
 export const highlightFourthVideo = "/assets/videos/hightlight-fourth.mp4";
 export const exploreVideo = "/assets/videos/explore.mp4";
 export const frameVideo = "/assets/videos/frame.mp4";
+export const animatedLogo = "/assets/images/logo-animated.gif";

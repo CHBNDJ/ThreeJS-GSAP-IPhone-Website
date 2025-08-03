@@ -6,12 +6,6 @@
   --color-zinc: #101010;
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 body {
   color: white;
   width: 100dvw;
@@ -31,6 +25,29 @@ canvas {
   margin-inline-end: auto;
   position: relative;
   max-width: 1120px;
+}
+
+.animate-fadeOut {
+  animation-duration: 0.3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@utility loader {
+  @apply fixed z-[2] bg-white top-0 left-0 w-full h-full flex items-center justify-center pointer-events-none;
+}
+
+@utility loader-logo {
+  @apply max-w-[400px] max-h-[300px] w-full h-full;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 @utility flex-center {
